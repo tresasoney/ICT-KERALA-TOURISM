@@ -50,11 +50,11 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span> 
 						</div>
-						<input type="password" class="form-control" placeholder="password" id="pwd" onkeyup="return passwordChanged()"><br><br></input>
+						<input type="password" class="form-control" placeholder="password" id="pwd pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}$"><br><br></input>
 					
 					</div>
 					<!-- <label for="error" id="errorpwd"></label> -->
-					<span id="strength" style="color: white;">Type Password</span>
+<!-- 					
 
 					<div class="row align-items-center remember">
 						<input type="checkbox">Remember Me
